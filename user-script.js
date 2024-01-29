@@ -1,12 +1,18 @@
 // ==UserScript==
 // @name        Zhihu Helper
-// @namespace   Violentmonkey Scripts
+// @namespace   https://github.com/tlan16/user-script-zhihu-helper
 // @match       *://*.zhihu.com/*
 // @grant       unsafeWindow
 // @version     1.0
+// @license     GPL-3.0 license
 // @author      Frank<franklan118@gmail.com>
+// @updateURL   https://raw.githubusercontent.com/tlan16/user-script-zhihu-helper/main/user-script.js
+// @downloadURL https://raw.githubusercontent.com/tlan16/user-script-zhihu-helper/main/user-script.js
+// @homepage    https://github.com/tlan16/user-script-zhihu-helper
+// @supportURL  https://github.com/tlan16/user-script-zhihu-helper
 // @description 29/01/2024, 7:15:58 pm
-// @require       https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
+// @require     https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
+// @run-at      document-idle
 // ==/UserScript==
 
 this.$ = this.jQuery = jQuery.noConflict(true);
