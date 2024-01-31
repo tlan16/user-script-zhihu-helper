@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Zhihu Helper
 // @namespace   https://github.com/tlan16/user-script-zhihu-helper
-// @match       *://*.zhihu.com/*
+// @match       https://*.zhihu.com/*
 // @grant       unsafeWindow
 // @version     1.0
 // @license     GPL-3.0 license
